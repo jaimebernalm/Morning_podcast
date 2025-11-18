@@ -1,0 +1,26 @@
+# Environment files
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.capstone_venv/
+capstone_venv/
+
+# IDE and OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Test/run artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
