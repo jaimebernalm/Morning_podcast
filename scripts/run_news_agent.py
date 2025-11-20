@@ -79,6 +79,8 @@ async def _run(location: str, *, user_id: str, session_id: str) -> None:
     print("\n\n".join(summaries))
 
 
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         description="Run the NewsAgent and print its generated briefing."

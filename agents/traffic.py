@@ -8,6 +8,7 @@ from utils.fetch_tools import retry_config
 import requests
 import os
 from datetime import datetime
+from typing import Dict, Any
 
 from pathlib import Path
 from agents.base import BaseAgent# (Optional) Traffic report based on location
@@ -17,7 +18,10 @@ class TrafficAgent(BaseAgent):
         super().__init__(name="TrafficAgent")
         self.api_key = os.getenv("DIRECTIONS_API_KEY")
 
-    def get_traffic_time(self, origin: str, destination: str) -> str:
+    def get_traffic_data(self, origin: str, destination: str) -> Dict[str, Any]:
+        """
+        Fetches raw traffic statistics. Does NOT write a summary.
+        """
         url = (
             "https://maps.googleapis.com/maps/api/directions/json"
             f"?origin={origin}&destination={destination}&departure_time=now&key={self.api_key}"
@@ -31,39 +35,33 @@ class TrafficAgent(BaseAgent):
             route = data["routes"][0]
             leg = route["legs"][0]
 
-            duration_in_traffic = leg["duration_in_traffic"]["text"]
-            normal_duration = leg["duration"]["text"]
-            summary = route.get("summary", "your usual route")
+            # We return a dictionary of FACTS
+            return {
+                "type": "traffic",
+                "route_summary": route.get("summary", "main route"),
+                "duration_in_traffic_text": leg["duration_in_traffic"]["text"],
+                "duration_in_traffic_value": leg["duration_in_traffic"]["value"], # Seconds
+                "normal_duration_text": leg["duration"]["text"],
+                "normal_duration_value": leg["duration"]["value"], # Seconds
+                "start_address": leg["start_address"],
+                "end_address": leg["end_address"],
+                "has_delay": leg["duration_in_traffic"]["value"] > leg["duration"]["value"]
+            }
 
-            traffic_msg = (
-                f"Traffic is smooth this morning. "
-                f"Your commute from {origin} to {destination} via {summary} will take about {duration_in_traffic}."
-                if duration_in_traffic == normal_duration
-                else f"Expect some delays on your way from {origin} to {destination} via {summary}. "
-                     f"With current traffic, it will take approximately {duration_in_traffic} instead of the usual {normal_duration}."
-            )
-
-            return traffic_msg
-
-        except (requests.RequestException, KeyError, IndexError) as e:
-            self.logger.error(f"TrafficAgent failed: {e}")
-            return "I'm sorry, I couldn't fetch traffic information at the moment."
+        except Exception as e:
+            return {"error": str(e)}
 
     def create_traffic_agent(self) -> LlmAgent:
-        instructions = (
-            """
-            You are a helpful traffic assistant.
-            Provide a concise traffic report for the requested location.
-            Use the get_traffic_time tool to gather raw traffic data before summarizing.
-            Only if it can't fetch the data, use the google_search tool.
-            Keep the tone friendly and informative.
-            """
-        )
-
-        traffic_agent = LlmAgent(
+        # Instruction: STRICTLY return the JSON from the tool. Do not chat.
+        instructions = """
+        You are a Data Fetcher. 
+        Your ONLY job is to run the `get_traffic_data` tool and return its output exactly as JSON.
+        Do not add any conversational text.
+        """
+        
+        return LlmAgent(
             name="TrafficAgent",
-            model=Gemini(model="gemini-2.5-flash-lite", retry_options=retry_config),
+            model=Gemini(model="gemini-2.5-flash-lite"),
             instruction=instructions,
-            tools=[self.get_traffic_time, google_search],
+            tools=[self.get_traffic_data], 
         )
-        return traffic_agent

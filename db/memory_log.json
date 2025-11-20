@@ -1,3 +1,340 @@
 {
-  "recent_topics": []
+  "recent_topics": [
+    {
+      "id": "warriors-recent-wins-and-losses",
+      "headline": "Golden State Warriors Secure Recent Victories Amidst Season Play",
+      "summary": "The Golden State Warriors have recently secured wins against the New Orleans Pelicans (124-106) and the San Antonio Spurs (109-108, 125-120). However, they also experienced losses to the Oklahoma City Thunder (102-126), Denver Nuggets (104-129), and Sacramento Kings (116-121). In their most recent games, the Warriors are averaging 114.6 points over their last five contests, with a 3-2 record in that span.",
+      "source": "Flashscore",
+      "timestamp": "2025-11-19T19:49:54.677426"
+    },
+    {
+      "id": "curry-injury-and-player-absences",
+      "headline": "Stephen Curry Out with Ankle Injury; Key Players Questionable for Upcoming Game",
+      "summary": "Stephen Curry has been ruled out of the upcoming game against the Miami Heat due to an ankle injury. Jonathan Kuminga is also out with knee issues, marking his fifth consecutive absence. Draymond Green and Jimmy Butler are questionable due to illness and back issues, respectively. These absences mean that players like Moses Moody, Brandin Podziemski, and Gary Payton II are expected to see increased minutes and usage.",
+      "source": "NBC Sports",
+      "timestamp": "2025-11-19T19:49:54.677426"
+    },
+    {
+      "id": "warriors-offensive-and-defensive-rankings",
+      "headline": "Warriors' Offensive and Defensive Metrics Highlight Season Performance",
+      "summary": "The Golden State Warriors rank 23rd in offensive rating (ORTG) at 114.3 and 11th in defensive rating (DRTG) at 113.2, resulting in a net rating of 1.1. Their three-point percentage stands at 37.5%, ranking 8th in the league. Over their last 10 games, the Warriors had a 4-6 record and averaged 104.8 points per game.",
+      "source": "StatMuse",
+      "timestamp": "2025-11-19T19:49:54.677426"
+    },
+    {
+      "id": "high-speed-crash-marina-district",
+      "headline": "High-Speed Crash in San Francisco's Marina District Leaves Two Injured",
+      "summary": "A high-speed, three-vehicle collision occurred in San Francisco's Marina District on Tuesday morning, resulting in two individuals being hospitalized. The crash, which took place at the intersection of Broderick and Lombard streets, left one pickup truck partially lodged into the side of the La Luna motel. Officials are investigating the cause of the incident.",
+      "source": "CBS San Francisco (KPIX-TV)",
+      "timestamp": "2025-11-19T19:49:54.772362"
+    },
+    {
+      "id": "uc-berkeley-student-drowning-death",
+      "headline": "UC Berkeley Student Dies After Frat Party Drowning Incident",
+      "summary": "A 19-year-old student at UC Berkeley has died following a near-drowning incident at a fraternity house on Friday night. While the student was found unresponsive, police have stated they do not suspect foul play. The university community is mourning the loss of the young student.",
+      "source": "SFist",
+      "timestamp": "2025-11-19T19:49:54.772362"
+    },
+    {
+      "id": "zoox-robotaxi-service-launch",
+      "headline": "Zoox Launches Free Robotaxi Service in San Francisco",
+      "summary": "Zoox, an autonomous vehicle company, has launched a free robotaxi service in San Francisco. While the service is currently in a limited capacity, it marks a significant step in the deployment of self-driving vehicles for public use in the city.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T19:49:54.772362"
+    },
+    {
+      "id": "bay-area-poverty-surge",
+      "headline": "New Data Shows Massive Surge in Bay Area Poverty",
+      "summary": "Recent data indicates a significant increase in poverty across the Bay Area. This surge is prompting discussions about economic challenges and the effectiveness of current support systems in the region.",
+      "source": "KTVU FOX 2 San Francisco",
+      "timestamp": "2025-11-19T19:49:54.772362"
+    },
+    {
+      "id": "tom-steyer-governor-run",
+      "headline": "San Francisco Billionaire Tom Steyer Announces Run for California Governor",
+      "summary": "San Francisco-based billionaire Tom Steyer has announced his candidacy for Governor of California. His entry into the race adds another prominent figure to the field of candidates vying for the state's top executive position.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T19:49:54.772362"
+    },
+    {
+      "id": "fastapi-stars-api-development",
+      "headline": "FastAPI: The Modern Star for Building High-Performance APIs",
+      "summary": "FastAPI has emerged as a leading Python framework for building APIs, praised for its speed, simplicity, and modern design. It leverages Python 3.8+ type hints for powerful data validation and automatic generation of interactive API documentation. Built on Starlette and Pydantic, FastAPI offers high performance, often matching or surpassing Node.js, and enables rapid development, with claims of increasing function development speed by 200-300%. It's particularly favored in industries like healthcare, fintech, and data science where efficient API integration is crucial. Its asynchronous support makes it suitable for high-concurrency applications.",
+      "source": "DEV Community",
+      "timestamp": "2025-11-19T19:49:55.024694"
+    },
+    {
+      "id": "django-robust-full-stack-development",
+      "headline": "Django: The Enduring Choice for Robust Full-Stack Web Development",
+      "summary": "Django continues to be a dominant force in full-stack Python web development, lauded for its \"batteries-included\" approach. It provides a comprehensive set of tools for rapid development, including an ORM, built-in admin panel, authentication, and security features. Its mature ecosystem and large community support make it a reliable choice for large-scale applications such as content management systems, e-commerce platforms, and social networks. Django's design emphasizes convention over configuration, promoting clean and pragmatic code, making it a well-tested and scalable framework.",
+      "source": "DEV Community",
+      "timestamp": "2025-11-19T19:49:55.024694"
+    },
+    {
+      "id": "flask-lightweight-flexible-microservices",
+      "headline": "Flask: The Lightweight and Flexible Framework for Microservices and APIs",
+      "summary": "Flask remains a popular choice for developers seeking a lightweight and flexible framework. Often described as a \"micro-framework,\" Flask provides a simple core that can be extended with plugins and extensions as needed. This makes it ideal for building APIs, microservices, and smaller web applications where developers want more control over project structure. Its simplicity and ease of use allow for rapid development and high customizability, making it a go-to for many projects that prioritize agility and specific component integration.",
+      "source": "DEV Community",
+      "timestamp": "2025-11-19T19:49:55.024694"
+    },
+    {
+      "id": "pandas-bokeh-interactive-data-visualization",
+      "headline": "Pandas-Bokeh Enhances Data Visualization with Interactive Bokeh Integration",
+      "summary": "Pandas-Bokeh is an emerging library that enhances data visualization capabilities within Python by integrating the interactive features of Bokeh directly into Pandas DataFrames. Released in July 2024, this library allows users to create interactive plots and dashboards with minimal code, supporting various plot types. Its seamless integration with Pandas makes it a valuable tool for data scientists and analysts looking to add interactivity to their data presentations.",
+      "source": "Medium",
+      "timestamp": "2025-11-19T19:49:55.024694"
+    },
+    {
+      "id": "new-python-libraries-2024-enhancements",
+      "headline": "Emerging Python Libraries in Q2 2024 Streamline Development and Data Handling",
+      "summary": "The Python ecosystem continues to grow with new libraries introduced in the second quarter of 2024. FastAPI-JWT-Auth simplifies JWT authentication in FastAPI applications, offering robust security features. Pandas-Bokeh enables interactive data visualization directly within Pandas DataFrames. AutoViz automates the process of exploratory data analysis. Streamlit-Components enhances Streamlit applications with new UI elements. FastParquet provides efficient reading and writing of parquet files, crucial for big data processing. Pytorch-Lite aims to optimize PyTorch models for edge devices.",
+      "source": "Medium",
+      "timestamp": "2025-11-19T19:49:55.024694"
+    },
+    {
+      "id": "nvidia-q3-results-beat-expectations-driven-by-ai-demand",
+      "headline": "Nvidia's Q3 Earnings and Revenue Surpass Analyst Expectations Fueled by AI Chip Demand",
+      "summary": "Nvidia reported robust third-quarter results, with earnings per share of $1.30, exceeding the analyst estimate of $1.26. Revenue soared by 62% year-over-year to $57.01 billion, surpassing the consensus estimate of $55.4 billion. The company's data center revenue, a key driver, jumped 66% to $51.2 billion. CEO Jensen Huang noted that sales of the AI Blackwell platform are \"off the charts\" and that cloud GPUs are \"sold out,\" indicating strong and ongoing demand in the artificial intelligence sector. The company also provided a positive revenue forecast for the current quarter, projecting approximately $65 billion.",
+      "source": "Investopedia",
+      "timestamp": "2025-11-19T19:49:55.408257"
+    },
+    {
+      "id": "nvidia-stock-performance-amidst-ai-boom-and-recent-pullback",
+      "headline": "Nvidia Stock Performance: Strong Year-to-Date Gains Despite Recent Volatility",
+      "summary": "Nvidia's stock has demonstrated significant growth, rising nearly 40% year-to-date as of late November 2025, significantly outpacing the S&P 500. Despite this impressive performance, the stock experienced a pullback, losing approximately 12-15% from its record high in late October. Analysts maintain a largely positive outlook, with a consensus rating of 'Strong Buy' from numerous analysts, and an average 12-month price target suggesting significant upside potential. However, some concerns about a potential AI bubble have emerged, leading to increased volatility.",
+      "source": "Investopedia",
+      "timestamp": "2025-11-19T19:49:55.408257"
+    },
+    {
+      "id": "nvidia-partners-with-microsoft-in-10b-anthropic-investment",
+      "headline": "Nvidia Invests $10 Billion in AI Startup Anthropic, Strengthening Partnership with Microsoft",
+      "summary": "Nvidia is making a substantial investment of up to $10 billion in the AI startup Anthropic. This strategic move is part of a broader partnership where Anthropic will invest $30 billion in Microsoft Azure computing power. The collaboration aims to enhance AI models, particularly for Nvidia's future architectures. This investment highlights Nvidia's deep involvement in the AI ecosystem beyond chip manufacturing, extending into strategic partnerships and ecosystem development.",
+      "source": "TradingView",
+      "timestamp": "2025-11-19T19:49:55.408257"
+    },
+    {
+      "id": "microsoft-copilot-ai-agents-word-excel-powerpoint",
+      "headline": "Microsoft's New AI Agents Now Create Word, Excel, and PowerPoint Projects",
+      "summary": "Microsoft has introduced new AI agents for Word, Excel, and PowerPoint, designed to streamline the process from ideation to production. Users can generate documents, spreadsheets, and presentations by simply typing a prompt, with the agents asking follow-up questions to tailor the output. Powered by Anthropic models, these agents can access user and web data for personalized and context-aware assistance, handling tasks like research, spreadsheet formatting, and presentation design. These agentic capabilities are available through Copilot Chat, a service for Microsoft 365 commercial customers.",
+      "source": "ZDNET",
+      "timestamp": "2025-11-19T19:53:52.517750"
+    },
+    {
+      "id": "gemini-3-pro-ai-agents-google-vertex-ai",
+      "headline": "Google Launches Gemini 3 Pro Preview, Enhancing AI Agent Capabilities",
+      "summary": "Google has released Gemini 3 Pro Preview, its most powerful agentic model to date, designed to act as a core orchestrator for advanced AI workflows. The model introduces features for granular control over cost, latency, and reasoning depth, including adjustable reasoning levels ('thinking_level') and stateful tool use via 'Thought Signatures' to maintain context. Gemini 3 Pro also offers adjustable multimodal fidelity and improved large context consistency. Google has collaborated with open-source partners like LangChain and LlamaIndex to facilitate the development of next-generation AI agents.",
+      "source": "Google Blog",
+      "timestamp": "2025-11-19T19:53:52.517750"
+    },
+    {
+      "id": "ai-agents-industry-impact-productivity-2025",
+      "headline": "AI Agents Revolutionizing Industries with Increased Productivity and Cost Reduction",
+      "summary": "Artificial Intelligence agents are transforming industries by automating repetitive tasks, leading to significant increases in productivity and substantial cost reductions. Companies are reporting average monthly savings of up to $80,000 through task automation, continuous availability, and improved efficiency. In the financial sector, firms like JPMorgan and Goldman Sachs have achieved up to 40% cost reduction in routine operations. Beyond efficiency, AI agents are facilitating new business models and enhancing decision-making through rapid data analysis. Industry experts anticipate major impacts in areas such as edge AI, AI security, and generative AI advancement in the coming years.",
+      "source": "ByteBridge",
+      "timestamp": "2025-11-19T19:53:52.517750"
+    },
+    {
+      "id": "starship_flight_10_milestones",
+      "headline": "SpaceX's Starship Completes Milestone 10th Test Flight with Key Achievements",
+      "summary": "SpaceX's Starship rocket successfully completed its tenth test flight on August 26, 2025, achieving several critical milestones after previous setbacks. The 403-foot vehicle launched from Starbase, Texas, with its Super Heavy booster separating and performing a successful splashdown in the Gulf of Mexico, utilizing backup landing engines for the first time. The Starship upper stage reached space, deployed simulated Starlink satellites by opening its payload door, and successfully relit a Raptor engine in orbit before splashing down in the Indian Ocean. The mission also evaluated an upgraded thermal protection system during reentry. This tenth flight, despite a historical high failure rate for the program, demonstrates SpaceX's iterative approach to development, with half of all Starship tests ending in failure, but enabling rapid learning and improvement.",
+      "source": "Tech in Asia",
+      "timestamp": "2025-11-19T19:53:53.172520"
+    },
+    {
+      "id": "starship_hls_timeline_delays",
+      "headline": "SpaceX Starship Timeline Pushes NASA's Artemis III Moon Landing to 2028",
+      "summary": "SpaceX is reportedly targeting an orbital refueling demonstration for June 2026 and an uncrewed lunar landing for June 2027. If these milestones are met, the earliest crewed mission to the Moon for NASA's Artemis III program could occur in September 2028. This timeline, revealed in an internal SpaceX document, indicates a delay from NASA's original schedule. The company acknowledges this revised timeline and plans to discuss new contract deadlines with NASA. Starship's development has faced growing pains, with several launches in 2025 not considered successful. Key upcoming tests include the Starship V3 architecture, a long-duration flight test, and an in-space propellant transfer, with orbital refueling demonstrations targeted for mid-2026.",
+      "source": "Space.com",
+      "timestamp": "2025-11-19T19:53:53.172520"
+    },
+    {
+      "id": "starship_integrated_flight_history",
+      "headline": "SpaceX Starship: A Look at its Development and Flight History",
+      "summary": "As of October 13, 2025, SpaceX's Starship has undergone 11 integrated flight tests, with 6 successful flights and 5 failures. The development has been characterized by an iterative approach with numerous prototypes and test flights. Notable milestones include the first full flight test of Starship 24 with a Super Heavy booster in April 2023, and Starship 25 reaching space in November 2023. The company has produced over three dozen Starships and 600 Raptor engines. Future development includes a long-duration flight test and in-space propellant transfer, targeted for 2026, which are crucial for the Artemis lunar mission architecture and enabling Starship to carry significant payloads to the lunar surface.",
+      "source": "Wikipedia",
+      "timestamp": "2025-11-19T19:53:53.172520"
+    },
+    {
+      "id": "python-3-13-experimental-jit-and-free-threaded-mode",
+      "headline": "Python 3.13 Introduces Experimental JIT Compiler and Free-Threaded Mode",
+      "summary": "Python 3.13, released in October 2024, brings significant performance enhancements through an experimental Just-In-Time (JIT) compiler (PEP 744) and experimental support for a free-threaded build mode that disables the Global Interpreter Lock (GIL) (PEP 703). The JIT compiler aims to speed up Python programs by compiling specialized bytecode into machine code, though its performance improvements are currently modest and expected to grow in future releases. The free-threaded mode, available as an experimental feature on Windows and macOS, allows for true multi-threading and concurrency, potentially leading to more responsive and scalable applications. These features are foundational for future performance gains, with the JIT disabled by default and requiring build-time enablement.",
+      "source": "InfoQ",
+      "timestamp": "2025-11-19T19:53:54.135759"
+    },
+    {
+      "id": "python-3-13-overhauls-interactive-interpreter",
+      "headline": "Python 3.13 Features a Revamped Interactive Interpreter with Enhanced Usability",
+      "summary": "Python 3.13 introduces a significantly improved interactive interpreter, derived from the PyPy project, offering a more user-friendly and efficient command-line experience. Key enhancements include multi-line editing with history preservation, direct support for REPL-specific commands like 'help', 'exit', and 'quit' without function calls, and color-enabled prompts and tracebacks by default. Users can also benefit from interactive help browsing via F1 and history navigation using F2. A 'paste mode' (F3) simplifies inserting larger blocks of code. This overhaul aims to boost developer productivity and streamline the coding process within the REPL.",
+      "source": "Medium",
+      "timestamp": "2025-11-19T19:53:54.135759"
+    },
+    {
+      "id": "python-3-13-improves-error-messages-and-typing",
+      "headline": "Python 3.13 Enhances Error Reporting and Typing Features",
+      "summary": "Python 3.13 continues its trend of developer-friendly diagnostics with more descriptive and actionable error messages, aiding in easier debugging. These messages may include suggestions for potential corrections, utilizing algorithms like Levenshtein distance for spelling corrections in variable names. The typing module has also been expanded with features such as 'TypeIs' and 'ReadOnly', and type parameters now support default values, increasing flexibility for generic classes and functions (PEP 696). Additionally, the 'locals()' built-in function now has well-defined semantics for mutating the returned mapping, improving consistency for debuggers.",
+      "source": "Trio Dev",
+      "timestamp": "2025-11-19T19:53:54.135759"
+    },
+    {
+      "id": "python-3-13-removes-deprecated-modules",
+      "headline": "Python 3.13 Cleans Up Standard Library by Removing Deprecated Modules",
+      "summary": "As part of PEP 594, Python 3.13 removes a significant number of deprecated modules from its standard library, often referred to as 'removing dead batteries.' Modules such as 'aifc', 'audioop', 'cgi', 'crypt', 'nntplib', 'telnetlib', and many others are no longer included in this release. This cleanup effort aims to streamline the standard library and encourage the use of more modern alternatives. Several other deprecated classes, functions, and methods across various modules have also been removed, with new deprecations introduced for future removal in Python 3.15 or 3.16.",
+      "source": "Python.org",
+      "timestamp": "2025-11-19T19:53:54.135759"
+    },
+    {
+      "id": "python-3-13-optimizes-docstrings-and-dbm",
+      "headline": "Python 3.13 Includes Docstring Memory Optimization and New DBM Backend",
+      "summary": "Python 3.13 introduces optimizations for memory usage and file size by stripping leading indentation from docstrings before compilation. This change reduces the memory footprint of .pyc files and can lower memory consumption during execution, particularly in projects with extensive documentation. Furthermore, the 'dbm' module now includes a 'dbm.sqlite3' backend, which is used by default when creating new 'dbm' files, offering a more robust and feature-rich option for key-value storage.",
+      "source": "Reddit",
+      "timestamp": "2025-11-19T19:53:54.135759"
+    },
+    {
+      "id": "warriors-fall-to-magic-121-113",
+      "headline": "Golden State Warriors Fall to Orlando Magic, 121-113",
+      "summary": "The Golden State Warriors lost to the Orlando Magic on November 18, 2025, with a final score of 121-113. This game marked a recent result in the Warriors' ongoing season, contributing to their current record. Further details on individual player statistics and game progression can be found on sports data sites like Flashscore and AiScore.",
+      "source": "Flashscore",
+      "timestamp": "2025-11-19T22:05:33.319072"
+    },
+    {
+      "id": "warriors-cruise-past-pelicans-124-106",
+      "headline": "Moses Moody Scores 32 as Warriors Cruise Past Pelicans 124-106",
+      "summary": "The Golden State Warriors secured a decisive victory over the New Orleans Pelicans on November 16, 2025, with a final score of 124-106. Moses Moody was a standout performer, scoring 32 points for the Warriors. This win was part of a series of recent games for the team, with other notable scores including a 109-108 win against the San Antonio Spurs on November 14 and a 125-120 win against the Spurs on November 12. However, they also experienced a loss to the Oklahoma City Thunder on November 11 with a score of 102-126.",
+      "source": "CBS Sports",
+      "timestamp": "2025-11-19T22:05:33.319072"
+    },
+    {
+      "id": "warriors-face-injury-woes-vs-heat-curry-out",
+      "headline": "Warriors Face Injury Woes Against Heat; Stephen Curry Ruled Out",
+      "summary": "The Golden State Warriors are heading into their November 19, 2025, game against the Miami Heat with significant injury concerns. Stephen Curry has been ruled out due to right ankle soreness. Additionally, Jonathan Kuminga (knee tendonitis) and Al Horford (toe) will not play. Draymond Green, Jimmy Butler III, and Buddy Hield are listed as questionable. The Warriors are expected to rely on Moses Moody and Brandin Podziemski to fill the gaps in their rotation due to these absences.",
+      "source": "The Times of India",
+      "timestamp": "2025-11-19T22:05:33.319072"
+    },
+    {
+      "id": "generative-ai-agents-emerge-as-next-evolution",
+      "headline": "Generative AI Agents: The Next Evolution Moving From Knowledge to Action",
+      "summary": "Generative AI agents represent a significant leap forward, transitioning from systems that merely generate content to autonomous entities capable of planning, decision-making, and task execution. These agents leverage foundation models like LLMs, enabling them to understand natural language prompts, interact with their environment, and learn from feedback. Companies like Microsoft, Google, and OpenAI are heavily investing in agentic AI, developing frameworks and tools that support multi-agent applications. This shift is poised to redefine work by automating complex tasks and processes, acting as virtual collaborators that can perform sophisticated problem-solving and adapt to new scenarios. While still in early development, AI agents promise increased productivity and new revenue streams for businesses, moving beyond simple content generation to active assistance and execution [2, 5].",
+      "source": "NexGen Cloud",
+      "timestamp": "2025-11-19T22:05:33.484219"
+    },
+    {
+      "id": "autonomous-ai-agents-driving-innovation-across-industries",
+      "headline": "Autonomous Generative AI Agents Drive Innovation and Automation Across Industries",
+      "summary": "Generative AI agents are rapidly evolving, with a focus on autonomy and multi-agent systems that can collaborate to complete complex tasks. Startups and major tech companies are developing these systems, which can reason, analyze, and adapt to unpredictable workflows, setting them apart from traditional RPA and chatbots [1, 6]. These agents can perceive their environment, use tools, and orchestrate other systems, leading to significant productivity gains. For instance, emerging agentic cybersecurity systems can autonomously detect attacks and generate reports, reducing human experts' workload by up to 90% [1]. In software development, agentic AI can help detect vulnerabilities and communicate fixes to developers [1]. While challenges like \"hallucinations\" can spread between agents in multi-agent systems, the potential for increased productivity and new capabilities remains immense [1].",
+      "source": "Deloitte",
+      "timestamp": "2025-11-19T22:05:33.484219"
+    },
+    {
+      "id": "generative-ai-agents-transforming-finance-and-customer-service",
+      "headline": "Financial Institutions and Insurers Deploy AI Agents to Combat Fraud and Streamline Operations",
+      "summary": "Banks and insurers are increasingly adopting generative AI and AI agents to combat fraud, process applications, and enhance customer service [14]. While nearly all executives cite a skills gap and regulatory burdens as key roadblocks, they also recognize the transformative potential of these technologies [14]. Two-thirds of leaders indicate a significant portion of their generative AI budget is allocated to agent technologies, with substantial increases in spending expected by 2028 [14]. AI agents are projected to deliver up to $450 billion in economic value by 2028 for the financial services industry, promising real-time decision-making, improved accuracy, and faster turnaround times, while also enabling expansion into new geographies and dynamic pricing strategies [14].",
+      "source": "Capgemini",
+      "timestamp": "2025-11-19T22:05:33.484219"
+    },
+    {
+      "id": "safeway-housing-plans",
+      "headline": "Affluent San Francisco Neighborhood Targeted for Housing Development by Turning Safeway into Residences",
+      "summary": "A developer has announced plans to convert a Safeway store in an affluent San Francisco neighborhood into a housing complex. The project aims to build over 500 new homes across two eight-story buildings, addressing a lack of new housing in the area in recent decades. The Safeway is expected to close temporarily to facilitate the construction.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T22:05:33.500743"
+    },
+    {
+      "id": "telehealth-execs-fraud",
+      "headline": "Two San Francisco Telehealth Executives Convicted of Fraud in ADHD Medication Distribution Scheme",
+      "summary": "Two executives from a San Francisco-based telehealth company have been convicted of fraud. The scheme involved the illegal distribution of ADHD medications.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T22:05:33.500743"
+    },
+    {
+      "id": "robotaxi-service-launch",
+      "headline": "Zoox Launches Free Robotaxi Service in San Francisco",
+      "summary": "Zoox, an autonomous vehicle company, has launched a free robotaxi service in San Francisco. The service is currently operating with human safety drivers as the company works to secure further permissions.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T22:05:33.500743"
+    },
+    {
+      "id": "stege-run-governor",
+      "headline": "San Francisco Billionaire Tom Steyer Announces Run for California Governor",
+      "summary": "Billionaire and former presidential candidate Tom Steyer has announced his candidacy for California governor. Steyer, known for his environmental activism and efforts to impeach Donald Trump, is entering a crowded field.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T22:05:33.500743"
+    },
+    {
+      "id": "supervisor-appointment",
+      "headline": "Mayor Daniel Lurie's Search for New Sunset Supervisor Faces Setbacks",
+      "summary": "San Francisco Mayor Daniel Lurie is reportedly facing challenges in appointing a new supervisor for the Sunset District, with a recent nominee resigning after just one week. Lurie is considering five candidates for the position.",
+      "source": "San Francisco Chronicle",
+      "timestamp": "2025-11-19T22:05:33.500743"
+    },
+    {
+      "id": "israel-gaza-airstrikes-lebanon",
+      "headline": "Israel Launches Airstrikes in Lebanon and Gaza, Dozens Killed",
+      "summary": "The Israeli military conducted airstrikes in both Lebanon and Gaza, resulting in dozens of casualties. The escalation comes amidst ongoing regional tensions. In Gaza, medics reported at least 25 Palestinians killed in Israeli airstrikes on a refugee camp. Simultaneously, elsewhere in the region, an Israeli airstrike on a Palestinian refugee camp in Lebanon reportedly killed 13 people and injured several others.",
+      "source": "Inquirer.net",
+      "timestamp": "2025-11-19T22:05:33.882781"
+    },
+    {
+      "id": "us-ukraine-peace-proposal-land-concessions",
+      "headline": "US Peace Proposal for Ukraine Includes Land Concessions and Military Cuts, Source Claims",
+      "summary": "A reported US peace proposal for the conflict in Ukraine includes demands for Ukraine to cede territory and reduce the size of its army. This proposal is said to be a key element in ongoing diplomatic efforts to find a resolution to the conflict.",
+      "source": "Inquirer.net",
+      "timestamp": "2025-11-19T22:05:33.882781"
+    },
+    {
+      "id": "trump-epstein-files-release",
+      "headline": "Donald Trump Signs Bill Ordering Release of Epstein Files",
+      "summary": "Under mounting pressure, U.S. President Donald Trump has signed a bill that mandates the release of files related to Jeffrey Epstein. The contents of these files are expected to shed light on the controversial case.",
+      "source": "The Times of India",
+      "timestamp": "2025-11-19T22:05:33.882781"
+    },
+    {
+      "id": "world-childrens-day-2025",
+      "headline": "World Children's Day 2025: Focus on Children's Rights and Voices",
+      "summary": "November 20, 2025, marks World Children's Day, a global day of action for children, by children, commemorating the adoption of the Declaration of the Rights of the Child and the Convention on the Rights of the Child. This year, the focus is on empowering children to share their lives, rights, and aspirations, with UNICEF and partners organizing events worldwide to amplify their voices and advocate for their well-being.",
+      "source": "UNICEF",
+      "timestamp": "2025-11-19T22:05:33.882781"
+    },
+    {
+      "id": "indonesia-climate-case-drowning-island",
+      "headline": "Indonesia's Drowning Island Takes Historic Climate Case to Court",
+      "summary": "An island in Indonesia, facing the threat of submersion due to rising sea levels, has initiated a significant legal battle by taking its climate case to court. This move highlights the growing urgency of climate change impacts and the legal avenues being pursued to address them.",
+      "source": "SBS News",
+      "timestamp": "2025-11-19T22:05:33.882781"
+    },
+    {
+      "id": "nvidia-earnings-exceed-forecasts-boost-stock",
+      "headline": "NVIDIA Earnings Exceed Forecasts, Boosting Stock Amid AI Enthusiasm",
+      "summary": "NVIDIA reported its third-quarter earnings, significantly surpassing Wall Street's expectations with an earnings per share of $1.30, exceeding the consensus forecast of $1.26. Revenue soared by 62% year-over-year to $57 billion, also topping analyst estimates of $55.4 billion. This strong performance, particularly in data center sales which reached $51.2 billion, has alleviated some investor concerns about a potential AI bubble and sent the company's stock higher in after-hours trading. CEO Jensen Huang highlighted strong sales for NVIDIA's Blackwell platform, stating that cloud GPUs are \"sold out\" and that the company has entered a \"virtuous cycle of AI.\"",
+      "source": "CBS News",
+      "timestamp": "2025-11-19T22:05:35.092991"
+    },
+    {
+      "id": "nvidia-stock-soars-on-strong-ai-chip-demand-and-guidance",
+      "headline": "NVIDIA Stock Soars on Strong AI Chip Demand and Upbeat Guidance",
+      "summary": "NVIDIA's shares surged in extended trading following the release of its third-quarter financial results, which exceeded Wall Street's projections. The company reported earnings of $1.30 per share on revenue of $57.01 billion, a 62% increase year-over-year. Data center revenue, a key driver, jumped 66% to $51.2 billion. NVIDIA forecasts fourth-quarter revenue to reach $65 billion, surpassing analysts' expectations. CEO Jensen Huang emphasized the accelerating demand for AI processors, noting that sales for the Blackwell platform are \"off the charts.\"",
+      "source": "Investopedia",
+      "timestamp": "2025-11-19T22:05:35.092991"
+    },
+    {
+      "id": "nvidia-beats-expectations-allaying-ai-bubble-fears",
+      "headline": "NVIDIA Beats Expectations, Allaying AI Bubble Fears",
+      "summary": "NVIDIA's latest quarterly earnings report surpassed market expectations, providing a sigh of relief for investors concerned about an overheating AI market. The company reported a 62% year-over-year increase in revenue to $57.01 billion and a 65% rise in net income to $31.9 billion. Data center sales were particularly strong, reaching $51.2 billion against an expected $49 billion. NVIDIA's projected fourth-quarter revenue of approximately $65 billion also exceeded analyst predictions, further bolstering confidence in the company's continued growth trajectory.",
+      "source": "The Guardian",
+      "timestamp": "2025-11-19T22:05:35.092991"
+    },
+    {
+      "id": "nvidia-reports-record-revenue-and-strong-outlook",
+      "headline": "NVIDIA Reports Record Revenue and Strong Outlook, Stock Rises",
+      "summary": "NVIDIA announced record-breaking third-quarter revenue of $57 billion, a 62% increase from the previous year, and earnings per share of $1.30, surpassing analyst forecasts. The company's strong performance is largely driven by sustained demand for its artificial intelligence chips, with data center revenue climbing 66% year-over-year to $51.2 billion. NVIDIA provided an optimistic revenue forecast for the fourth quarter, projecting $65 billion, which exceeded market expectations and contributed to a rise in its stock price in aftermarket trading.",
+      "source": "TipRanks.com",
+      "timestamp": "2025-11-19T22:05:35.092991"
+    },
+    {
+      "id": "nvidia-stock-performance-driven-by-ai-demand",
+      "headline": "NVIDIA Stock Performance Driven by AI Demand and Robust Financials",
+      "summary": "NVIDIA's stock has seen significant appreciation, with a nearly 40% gain year-to-date, driven by its dominant position in the AI chip market. The company recently reported third-quarter earnings that exceeded analyst expectations, with revenue reaching $57 billion and earnings per share at $1.30. Its data center segment continues to be a primary growth engine, showing a 66% year-over-year increase in revenue. Analysts maintain a \"Strong Buy\" rating on NVDA stock, with an average 12-month price target of $243.09, indicating potential for further upside.",
+      "source": "Nasdaq",
+      "timestamp": "2025-11-19T22:05:35.092991"
+    }
+  ]
 }

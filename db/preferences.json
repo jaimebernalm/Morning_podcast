@@ -1,7 +1,29 @@
 {
-  "user_preferences": {
-    "topics": [],
-    "tone": "",
-    "location": ""
+  "user_123": {
+    "name": "Alex Dev",
+    "location": {
+      "city": "San Francisco",
+      "country": "USA",
+      "coordinates": {
+        "lat": 37.7749,
+        "lon": -122.4194
+      }
+    },
+    "interests": [
+      "Generative AI Agents",
+      "NVIDIA Stock Performance",
+      "Golden State Warriors Scores",
+      "New Python Frameworks"
+    ],
+    "commute": {
+      "origin": "San Francisco, CA",
+      "destination": "Mountain View, CA"
+    },
+    "tone_preference": ["Sarcastic", "Informative"],
+    "time_limit": "5 minutes",
+    "schedule": {
+      "wake_time": "07:00",
+      "commute_method": "driving" 
+    }
   }
 }
